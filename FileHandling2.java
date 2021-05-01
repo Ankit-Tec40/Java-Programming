@@ -21,7 +21,7 @@ public class FileHandling2 {
         }
 
     } catch (Exception e) {
-        System.out.println("exception");
+        System.out.println("exception"+e);
     }
     
 
