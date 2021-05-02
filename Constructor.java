@@ -32,7 +32,7 @@ public class Constructor {
         myemployee2 ob=new myemployee2("Ankit");
         
         System.out.println(ob.getname());
-         
+        
 
 
     }

@@ -1,27 +1,24 @@
-
-public class Test {
+public class Test{
     public static void main(String[] args) {
-        System.out.println("h2"+2/0);
+        int a=7;
+        if(a>4){
+            try{
+                throw new Exception();
+            }
+            catch (Exception e){
+                System.out.println(e.getMessage());
+            }
+        }
+    }
+}
+class exp extends Exception{
+    @Override
+    public String toString() {
+        return "to str";
+    }
+    @Override
+    public String getMessage() {
+        return "exp message";
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        }}
+}

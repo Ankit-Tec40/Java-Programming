@@ -1,5 +1,5 @@
-// avstract=khalyali pulao
- abstract class parent2{
+// abstract=khalyali pulao
+abstract class parent2{
     public parent2(){
         System.out.println("base case constructor");
     }
@@ -19,7 +19,7 @@ abstract class child3 extends parent2{
         System.out.println("i am good");
     }
 }
-public class Abstract {
+public class AbstractClass {
     public static void main(String[] args) {
         
     }
