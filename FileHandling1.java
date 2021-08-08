@@ -12,6 +12,6 @@ public class FileHandling1 {
             System.out.println("unable to create file");
             e.printStackTrace();
         }
-        //write to file
+        
     }   
 }
