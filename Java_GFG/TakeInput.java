@@ -6,7 +6,7 @@ public class TakeInput {
         int x;
         x=sc.nextInt();
         int A=sc.nextInt();
-        System.out.println(x+""+A);
+        System.out.println(x+""+A+"hai");
 
         sc.close();
         
